@@ -1,0 +1,12 @@
+﻿hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+endhour = int(hour+(60/dura))
+endmins = int(mins-(60%dura))
+# Write your code here.
+print("if an event starts at",hour,":",mins,"and lasts",dura,"minutes it will end at",endhour,":",endmins)
+print("hour",hour)
+print("mins",mins)
+print("dura",dura)
+print("endhour",endhour)
+print("endmins",endmins)
